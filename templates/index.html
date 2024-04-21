@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus Jakarta Sans:wght@400;800&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <div class="desktop-1">
+    <section class="rectangle-parent">
+      <div class="frame-child"></div>
+      <img class="blob-1-icon" loading="lazy" alt="" src="{{ url_for('static', filename='img1.jpg') }}" />
+
+      <div class="frame-wrapper">
+        <div class="resume-revamp-parent">
+          <div class="resume-revamp">Resume Revamp</div>
+          <div class="land-more-interviews-container">
+            <p class="land-more-interviews">Land More Interviews With</p>
+            <p class="an-optimized-resume">An Optimized Resume in 3</p>
+            <p class="easy-steps">Easy Steps</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="desktop-1-inner">
+      <div class="frame-parent">
+        <div class="frame-group">
+          <div class="step-1-upload-your-resume-in-p-parent">
+            <div class="step-1-upload-container">
+              <p class="step-1">Step 1</p>
+              <p class="upload-your-resume">Upload your Resume in PDF format.</p>
+            </div>
+            <div class="frame-item"></div>
+            
+          </div>
+          <img class="undraw-sync-files-re-ws4c-1-icon" loading="lazy" alt="" src="{{ url_for('static', filename='img2.png') }}" />
+        </div>
+        <div class="frame-container">
+          <div class="frame-div">
+            <div class="frame-parent1">
+              <div class="step-2-upload-your-job-descrip-parent">
+                <div class="step-2-upload-container">
+                  <p class="step-2">Step 2</p>
+                  <p class="upload-your-job">Upload your Job description in</p>
+                  <p class="pdf-format">PDF format.</p>
+                </div>
+                <div class="frame-inner"></div>
+                
+              </div>
+              <div class="undraw-updated-resume-re-7r9j-wrapper">
+                <img class="undraw-updated-resume-re-7r9j-icon" loading="lazy" alt="" src="{{ url_for('static', filename='img3.png') }}" />
+              </div>
+            </div>
+            <div class="frame-parent2">
+              <div class="frame-wrapper1">
+                <div class="frame-parent3">
+                  <div class="step-3-scan-to-compare-and-sco-parent">
+                    <div class="step-3-scan-container">
+                      <p class="step-3">Step 3</p>
+                      <p class="scan-to-compare">Scan to compare and score</p>
+                      <p class="your-resume-vs">your resume vs the job's description and</p>
+                      <p class="find-out-the">find out the missing keywords.</p>
+                    </div>
+                    <div class="text-wrapper">
+                      <div class="text">
+                        <p class="blank-line">&nbsp;</p>
+                      </div>
+                    </div>
+                  </div>
+                  <img class="undraw-statistic-chart-re-w0pk-icon" loading="lazy" alt="" src="{{ url_for('static', filename='img4.png') }}" />
+                </div>
+                
+                <form action="/upload_resume" method="POST" enctype="multipart/form-data">
+                  <label for="resume">Upload Your Resume</label>
+                  <input type="file" id="resume" name="resume" accept=".pdf">
+                  <br>
+                  <label for="job_description">Upload Job Description</label>
+                  <input type="file" id="job_description" name="job_description" accept=".txt">
+                  <br>
+                  <input type="submit" value="TAKE SCAN">
+              </form>
+                <div class="circle">
+                  <div class="mask full">
+                    <div class="fill"></div>
+                  </div>
+                  <div class="mask half">
+                    <div class="fill"></div>
+                    <div class="fill fix"></div>
+                  </div>
+                  <div class="inside-circle">
+                    <span class="percentage">0%</span>
+                  </div>
+                </div>
+                <div id="ats_score"></div>
+                <div id="keyword_suggestions"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

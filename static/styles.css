@@ -1,0 +1,655 @@
+.frame-child {
+    height: 548px;
+    width: 1440px;
+    position: relative;
+    background-color:#FE647C;
+    max-width: 100%;
+  }
+  
+  .blob-1-icon {
+    height: 350px;
+    width: 350px;
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+  }
+  
+  .resume-revamp {
+    position: relative;
+    font-weight: 800;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  
+  .an-optimized-resume,
+  .easy-steps,
+  .land-more-interviews {
+    margin: 1px;
+  }
+  
+  .land-more-interviews-container {
+    align-self: stretch;
+    height: 156px;
+    position: relative;
+    font-size: 32px;
+    font-weight: 800;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  
+  .resume-revamp-parent {
+    align-self: stretch;
+    display: flex;
+    font-size: 42px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 38px;
+    max-width: 100%;
+  }
+  
+  .frame-wrapper,
+  .rectangle-parent {
+    display: flex;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  
+  .frame-wrapper {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 21px;
+    min-width: 430px;
+  }
+  
+  .rectangle-parent {
+    align-self: stretch;
+    background-color:#6974D6;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 112px 130px 129px 283px;
+    gap: 48px;
+    text-align: left;
+    font: size 28px;;
+    color:#ffffff;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  .step-1 {
+    margin: 0;
+    font-weight: 800;
+    font-size: 48px;
+    color: #454459;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  .upload-your-resume {
+    margin: 0;
+    font-weight:100;
+    font-size:  36px;
+    color:#454459;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  .frame-item,
+  .step-1-upload-container {
+    position: relative;
+    top: -20px;
+    color:#456ec8;
+  }
+  
+  .frame-item {
+    width: 445px;
+    height: 66px;
+    border-radius: var(--br-xs);
+    background-color: var(--color-mediumpurple);
+    max-width: 100%;
+  }
+  
+  .step-1-upload-your-resume-in-p-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-2xl);
+    max-width: 100%;
+  }
+  
+  .undraw-sync-files-re-ws4c-1-icon {
+    height: 228px;
+    width: 204px;
+    position: relative;
+    object-fit: cover;
+  }
+  
+  .frame-group {
+    width: 1066px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: var(--gap-xl);
+  }
+  
+  .step-2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #454459;
+  }
+  
+  .pdf-format,
+  .step-2,
+  .upload-your-job {
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    font-size:36px ;
+    color: #454459;
+  }
+  
+  .step-2-upload-container {
+    height: 148px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .frame-inner {
+    width: 443px;
+    height: 69px;
+    position: relative;
+    border-radius: var(--br-xs);
+    background-color: var(--color-mediumpurple);
+    max-width: 100%;
+  }
+  
+  .step-2-upload-your-job-descrip-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap:0%;
+    max-width: 100%;
+  }
+  
+  .undraw-updated-resume-re-7r9j-icon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  
+  .undraw-updated-resume-re-7r9j-wrapper {
+    height: 173px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-base) 0 0;
+    box-sizing: border-box;
+  }
+  
+  .frame-parent1 {
+    width: 1080px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: var(--gap-xl);
+  }
+  
+  .step-3 {
+    font-size:36px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    color: #454459;
+  }
+  
+  .find-out-the,
+  .scan-to-compare,
+  .step-3,
+  .your-resume-vs {
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 36px;
+    color: #454459;
+  }
+  
+  .step-3-scan-container {
+    height: 100px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .blank-line {
+    margin: 0;
+  }
+  
+  .text {
+    height: 106px;
+    width: 0;
+    position: relative;
+    font-weight: 800;
+    display: inline-block;
+    z-index: 1;
+  }
+  
+  .text-wrapper {
+    width: 534px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+    margin-top: -168px;
+    font-size: var(--font-size-23xl);
+    color: #000;
+  }
+  
+  .step-3-scan-to-compare-and-sco-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-height: 193px;
+    max-width: 100%;
+  }
+  
+  .rectangle-div {
+    height: 71px;
+    width: 457px;
+    position: relative;
+    border-radius: var(--br-xs);
+    background-color:#6974D6;
+    display: none;
+    max-width: 100%;
+  }
+
+  .get-started-below {
+  
+    position: relative;
+    font-weight: 800;
+    font-size: 18px;
+    display: inline-block;
+    z-index: 1;
+    color: #5863c9; /* Change color to your desired color code */
+  }
+  
+  
+  .get-started-below-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:-fit-content; /* Adjust the height as needed */
+  }
+  
+  .take-scan {
+    position: relative;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: var(--font-inter);
+    color: #5863c9;
+    top:-200px;
+    z-index: 1;
+    gap: 0;
+  }
+  
+  .frame-parent3,
+  .frame-wrapper1,
+  .rectangle-group {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  
+  .rectangle-group {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-base) var(--padding-xl) var(--padding-base) 27px;
+    background-color: var(--color-mediumpurple);
+    width: 457px;
+    border-radius: var(--br-xs);
+    flex-direction: row;
+  
+    box-sizing: border-box;
+    white-space: nowrap;
+  }
+
+  /* CSS for styling the form */
+form {
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color:#ffffff;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+label {
+  display: block;
+  color: #454459;
+  margin-bottom: 10px;
+  font-size:32px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+input[type="file"] {
+  margin-bottom: 50px;
+  
+}
+
+input[type="submit"] {
+  padding: 15px 45px;
+  background-color:#456ec8;
+  color: #ffffff;
+  font-weight:bolder;
+  font-size:22px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #456ec8;
+}
+
+  
+  #ats_score {
+    font-size: 14px;
+    font-family:'Times New Roman', Times, serif;
+    color: #130f60; 
+    top: 70px;/* Set the font size for ATS score */
+  }
+  
+  #keyword_suggestions {
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #456ec8; /* Set the font size for missing keywords */
+  }
+  
+  .rectangle-group:hover {
+    background-color: #828ff0;
+  }
+  
+  .frame-parent3,
+  .frame-wrapper1 {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .frame-parent3 {
+    align-self: stretch;
+    gap: var(--gap-2xl);
+  }
+  
+  .frame-wrapper1 {
+    width: 685px;
+    padding: 46px 0 0;
+    box-sizing: border-box;
+    min-width: 685px;
+  }
+  
+  .undraw-statistic-chart-re-w0pk-icon {
+    height: 228px;
+    width: 204px;
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+    right: -870px;
+    top: -220px;
+  }
+  
+  
+  .frame-parent2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: var(--gap-xl);
+  }
+  
+  .frame-div {
+    flex: 1;
+    flex-direction: column;
+    gap: 98px;
+  }
+  
+  .frame-container,
+  .frame-div,
+  .frame-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  
+  .frame-container {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 8px;
+    box-sizing: border-box;
+    font-size: var(--font-size-17xl);
+  }
+  
+  .frame-parent {
+    width: 1122px;
+    flex-direction: column;
+    gap: 173px;
+  }
+  
+  .desktop-1,
+  .desktop-1-inner {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  
+  .desktop-1-inner {
+    width: 1372px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-29xl);
+    color: var(--color-darkslategray);
+    font-family: var(--font-plus-jakarta-sans);
+  }
+  
+  .desktop-1 {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 89px 0 516px;
+    gap: 106px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  
+  .circle {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    right: 100px; /* Adjust the right offset as needed */
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+    bottom: 50px ; /* Ensure the circle is above other elements */
+  }
+  
+  /* Adjust the position of the circle based on your layout */
+  
+  /* Other styles for the circle remain the same */
+  
+  
+  .circle .mask {
+    clip: rect(0px, 100px, 100px, 50px);
+  }
+  
+  .circle .mask.full,
+  .circle .mask.half {
+    border-radius: 50%;
+  }
+  
+  .circle .mask.full {
+    clip: rect(auto, auto, auto, auto);
+  }
+  
+  .circle .mask.half {
+    clip: rect(0px, 50px, 100px, 0px);
+  }
+  
+  .circle .fill {
+    border-radius: 50%;
+    background: #2a1eaf; /* Change the background color to dark blue */
+    position: absolute;
+    clip: rect(0px, 50px, 100px, 0px);
+  }
+  
+  .circle .fill.fix {
+    background: #a29ed1; /* Change the background color to dark blue */
+  }
+  
+  .circle .inside-circle {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background: #3a74f0; /* Change the background color to dark blue */
+    position: relative;
+    top:900px;
+    left:-200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  
+  .circle .percentage {
+    font-size: 40px;
+    color: #ffffff;
+  }
+  
+  @media screen and (max-width: 1125px) {
+    .blob-1-icon {
+        flex: 1;
+    }
+    .rectangle-parent {
+        flex-wrap: wrap;
+    }
+    .frame-div {
+        gap: 49px;
+    }
+    .frame-parent {
+        gap: 86px;
+    }
+  }
+  
+  @media screen and (max-width: 1050px) {
+    .resume-revamp {
+        font-size: var(--font-size-15xl);
+    }
+    .land-more-interviews-container {
+        font-size: var(--font-size-10xl);
+    }
+    .frame-wrapper {
+        min-width: 100%;
+    }
+    .step-1-upload-container {
+        font-size: var(--font-size-10xl);
+    }
+    .frame-group {
+        flex-wrap: wrap;
+    }
+    .step-2-upload-container {
+        font-size: var(--font-size-10xl);
+    }
+    .frame-parent1 {
+        flex-wrap: wrap;
+    }
+    .step-3-scan-container {
+        font-size: var(--font-size-10xl);
+    }
+    .text {
+        font-size: var(--font-size-15xl);
+    }
+    .frame-wrapper1 {
+        flex: 1;
+        min-width: 100%;
+    }
+    .undraw-statistic-chart-re-w0pk-icon {
+        flex: 1;
+    }
+    .frame-parent2 {
+        flex-wrap: wrap;
+    }
+  }
+  
+  @media screen and (max-width: 750px) {
+    .resume-revamp-parent {
+        gap: 19px;
+    }
+    .rectangle-parent {
+        padding: 73px 65px 84px 141px;
+        box-sizing: border-box;
+    }
+    .frame-div,
+    .rectangle-parent {
+        gap: var(--gap-5xl);
+    }
+    .frame-parent {
+        gap: 43px;
+    }
+    .desktop-1 {
+        gap: 53px;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .resume-revamp {
+        font-size: 40px;
+    }
+    .land-more-interviews-container {
+        font: size 38px;;
+    }
+    .rectangle-parent {
+        padding-left: var(--padding-xl);
+        padding-right: var(--padding-xl);
+        box-sizing: border-box;
+    }
+    .step-1-upload-container,
+    .step-2-upload-container,
+    .step-3-scan-container {
+        font-size: var(--font-size-3xl);
+    }
+    .text {
+        font-size: var(--font-size-6xl);
+    }
+    .frame-parent {
+        gap: 22px;
+    }
+  }
+  
