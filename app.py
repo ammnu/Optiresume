@@ -60,4 +60,4 @@ def calculate_ats_score(resume_text, job_description_text):
     return round(ats_score, 2), keyword_suggestions
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False, host='0.0.0.0')
